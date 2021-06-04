@@ -1,7 +1,0 @@
-Over the past years, we have seen claims like "we propose a novel model architecture that achieves the state-of-the-art performance" in a large number of research papers. Without techniques like neural architecture search (NAS), designing novel model architectures is still a highly heuristic and empirical work. Furthermore, many efforts must be devoted to validating the statistical significance of improvements brought by the modifications, and finding a backward explanation on why the idea works.
-
-One question naturally arises, **is there a way of improving the performance of deep learning models that could free us from seeking novel model architectures?** This is where ensemble learning [x] could help us, a well-studied area in the community of machine learning and data mining. As long as we are capable of building many relatively good models, ensemble learning offers a large number of algorithms to generate an ensemble that outperforms a single model by a large margin. 
-
-Furthermore, training deep learning models could be prohibitively expensive. We are excited to see that many novel ensemble algorithms designed specifically for neural networks have been proposed in recent years, termed as budge-aware deep ensemble algorithms below.
-
-torchensemble offers a unified framework for PyTorch to improve the performance of your deep learning model. It enables you to:
